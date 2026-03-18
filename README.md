@@ -1,5 +1,11 @@
-# AI Stack
-
+```text
+ █████╗ ██╗      ███████╗████████╗ █████╗  ██████╗██╗  ██╗
+██╔══██╗██║      ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██║ ██╔╝
+███████║██║█████╗███████╗   ██║   ███████║██║     █████╔╝ 
+██╔══██║██║╚════╝╚════██║   ██║   ██╔══██║██║     ██╔═██╗ 
+██║  ██║██║      ███████║   ██║   ██║  ██║╚██████╗██║  ██╗
+╚═╝  ╚═╝╚═╝      ╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
+```
 **AI Stack** is an open-source Docker Compose template designed to swiftly initialize a comprehensive local AI and low-code development environment.
 
 ## Quick start: choose your setup
