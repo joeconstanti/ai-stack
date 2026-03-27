@@ -10,6 +10,14 @@
 
 ## Quick start: choose your setup
 
+### Recommended: interactive installer
+
+```bash
+./install.sh
+```
+
+The installer asks guided questions, generates `.env`, and starts the correct Docker Compose stack for local or Traefik deployment.
+
 ### Local (no HTTPS, direct ports)
 
 1) Create `.env` (minimum)
@@ -134,8 +142,10 @@ Engineering world, handles large amounts of data safely.
 ```bash
 git clone https://github.com/fromtheroot/ai-stack.git
 cd ai-stack
-cp .env.example .env # you should update secrets and passwords inside
+./install.sh
 ```
+
+This interactive setup will create `.env` for you and launch the stack.
 
 ### Running n8n using Docker Compose
 
